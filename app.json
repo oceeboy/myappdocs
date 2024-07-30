@@ -4,6 +4,7 @@
     "slug": "scanshelftesting",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "scanshelftesting",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -22,6 +23,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "471723e1-6878-4b18-8fa9-5d54f3adeba7"
+      }
     }
   }
 }
